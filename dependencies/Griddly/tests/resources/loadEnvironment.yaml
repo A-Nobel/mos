@@ -1,0 +1,18 @@
+Environment:
+  Name: Test Environment
+  TileSize: 16
+  Variables:
+    - Name: global_variable1
+      InitialValue: 50
+    - Name: global_variable2
+      InitialValue: 0
+      PerPlayer: true
+  Player:
+    Mode: SINGLE # MULTI, RTS
+  Levels:
+    - |
+      W  W  W  W  W
+      W  .  .  .  W
+      W  .  .  .  W
+      W  .  .  .  W
+      W  W  W  W  W

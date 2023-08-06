@@ -1,0 +1,153 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build dir
+build/
+
+# vs code
+.vscode/
+*.code-workspace
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# CPack
+CPackConfig.cmake
+CPackSourceConfig.cmake
+DartConfiguration.tcl
+
+# Tests
+tests/vendor/*
+!tests/vendor/CMakeLists.txt*
+
+# Vulkan
+*.spv
+*.ppm
+
+# Idea
+.idea/
+
+# Build
+Debug/
+Release/
+
+# Yamlcpp
+*.pc
+
+# Test Reports
+test-report.xml
+
+# Visual Studio
+*.sln
+*.dir
+*.vcxproj
+*.vcxproj.filters
+
+# Mac OS
+.DS_Store
+
+# Python
+python/*.png
+__pycache__/
+python/tests/*.png
+griddly_python/
+
+# Merge artifacts
+*.orig
+
+# Ninja build stuff
+*.pyc
+*.obj
+*.exe
+*.pdb
+*.ilk
+/build*/
+/build.ninja
+/ninja
+/ninja.bootstrap
+/build_log_perftest
+/canon_perftest
+/clparser_perftest
+/depfile_parser_perftest
+/hash_collision_bench
+/ninja_test
+/manifest_parser_perftest
+/graph.png
+/doc/manual.html
+/doc/doxygen
+rules.ninja
+*.patch
+.DS_Store
+
+# Eclipse project files
+.project
+.cproject
+
+# SublimeText project files
+*.sublime-project
+*.sublime-workspace
+
+# Ninja output
+.ninja_deps
+.ninja_log
+
+# MP4 videos
+*.mp4
+
+
+# misc
+bin/
+
+# wandb 
+wandb/
+
+# tests
+test-output.xml
+
+**/cmake-build*
+
+python/testdir/
+.cmake/
+griddlyConfig.cmake
+griddlyConfigVersion.cmake
+
